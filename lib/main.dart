@@ -201,6 +201,8 @@ class _SexoPageState extends State<SexoPage> {
     _fetchSexoData();
   }
 
+//esta api adrian guanoluisaanal
+
   Future<void> _fetchSexoData() async {
     setState(() {
       _isLoading = true; // Inicia la carga
