@@ -462,7 +462,7 @@ class _EstadocivilPageState extends State<EstadocivilPage> {
     super.initState();
     _fetchEstadocivilData();
   }
-
+  //Esta api la modifico Vera Alarcon Dereck Farid saludos marcianos
   Future<void> _fetchEstadocivilData() async {
     setState(() {
       _isLoading = true; // Inicia la carga
